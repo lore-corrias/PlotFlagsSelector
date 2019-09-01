@@ -3,7 +3,6 @@ package com.justlel.plotflagsselector.listeners;
 import com.justlel.plotflagsselector.Main;
 import com.justlel.plotflagsselector.guis.SelectionGui;
 import com.justlel.plotflagsselector.yaml.LanguageYaml;
-import com.justlel.plotflagsselector.yaml.SelectionGuiYaml;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

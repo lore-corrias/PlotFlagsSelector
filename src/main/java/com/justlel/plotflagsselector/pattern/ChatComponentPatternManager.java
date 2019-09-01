@@ -25,6 +25,7 @@ public class ChatComponentPatternManager {
             System.out.println(string);
             return new TextComponent();
         }
+        string = ChatColor.translateAlternateColorCodes('&', string);
         TextComponent finalComponent = new TextComponent();
 
         Matcher stringMatcher = COMPLETE_PATTERN.matcher(string);

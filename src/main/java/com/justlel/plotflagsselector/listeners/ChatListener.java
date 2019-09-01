@@ -52,7 +52,9 @@ public class ChatListener implements Listener {
     private boolean validateMessage(FlagsCommand.SUB_CATEGORIES category, String message) {
         if (category == FlagsCommand.SUB_CATEGORIES.FEED || category == FlagsCommand.SUB_CATEGORIES.HEAL) {
             try {
-                Integer.parseInt(message);
+                Integer number = Integer.parseInt(message);
+                if(number < 0 || number > 20)
+                    return false;
             } catch (NumberFormatException e) {
                 return false;
             }
