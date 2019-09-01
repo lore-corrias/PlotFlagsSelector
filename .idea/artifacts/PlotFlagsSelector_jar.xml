@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="PlotFlagsSelector:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PlotFlagsSelector_jar</output-path>
+    <root id="archive" name="PlotFlagsSelector.jar">
+      <element id="module-output" name="PlotFlagsSelector" />
+    </root>
+  </artifact>
+</component>

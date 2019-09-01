@@ -1,0 +1,12 @@
+health:
+  text: "Test"
+gamemode:
+  text: "Test"
+plot_description:
+  text: "Test"
+weather:
+  text: "Test"
+teleport:
+  text: "Test"
+boolean:
+  text: "Test"

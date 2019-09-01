@@ -1,0 +1,9 @@
+name: PlotFlagsSelector
+version: ${project.version}
+main: com.justlel.plotflagsselector.Main
+authors: [JustLel]
+description: Menu per selezionare e modificare le flag del proprio plot.
+website: www.evermine.it
+commands:
+  flags:
+    aliases: [fl, flgs, fgui]

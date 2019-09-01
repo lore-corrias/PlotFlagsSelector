@@ -1,0 +1,42 @@
+health:
+  texture: "466a5f7bcd3c1c225a9366eee6dfab1cc66a6bf7363fed087512e6ef47a1d"
+  slot: 10
+  name: "&c&lSalute"
+  lore:
+    - "&7Imposta il livello di &csalute"
+    - "&7o di &cfame &7dei Player nel tuo lotto."
+gamemode:
+  texture: "c95d37993e594082678472bf9d86823413c250d4332a2c7d8c52de4976b362"
+  slot: 11
+  name: "&3&lGamemode"
+  lore:
+    - "&7Imposta la &3GameMode"
+    - "&7del tuo lotto."
+plot_description:
+  texture: "e825419e429afc040c9e68b10523b917d7b8087d63e7648b10807da8b768ee"
+  slot: 12
+  name: "&2&lDescrizione"
+  lore:
+    - "&7Imposta la &2 &7descrizione"
+    - "&7o il &2benvenuto &7del tuo lotto."
+weather:
+  texture: "b89042082bb7a7618b784ee7605a134c58834e21e374c888937161057f6c7"
+  slot: 14
+  name: "&b&lMeteo"
+  lore:
+    - "&7Cambia il &bMeteo"
+    - "&7dentro il tuo plot."
+teleport:
+  texture: "5cb7c21cc43dc17678ee6f16591ffaab1f637c37f4f6bbd8cea497451d76db6d"
+  slot: 15
+  name: "&1&lTeletrasporto"
+  lore:
+    - "&7Scegli chi può"
+    - "&1teeltrasportarsi"
+    - "&7nel tuo plot."
+boolean:
+  texture: "915f7c313bca9c2f958e68ab14ab393867d67503affff8f20cb13fbe917fd31"
+  slot: 16
+  name: "&5&lBoolean"
+  lore:
+    - "&7Flag impostabili su &atrue &7o &afalse"

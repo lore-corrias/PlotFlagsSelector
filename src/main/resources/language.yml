@@ -1,0 +1,16 @@
+prefix: "&7[&6PlotFlags&7]"
+in-game-command: "&cComando eseguibile solo in game!"
+flag-category-404: "&cCategoria di flag non trovata!"
+insufficient-permissions: "&cPermessi insufficienti!"
+config-reloaded: "&aConfig ricaricato con successo!"
+write-flag-parameter: "&6Scrivi adesso il valore da assegnare alla flag!"
+selection-gui-title: "&6Scegli una categoria!"
+gui-opener-title: "&bModifica le tue flag!"
+gui-opener-lore: |
+  &7Clicca su questo item per
+  &7aprire la &bGUI &7e modificare
+  &7le tue flag!
+invalid-flag-parameter: "&cValore invalido!"
+plugin-enabled: "&aPlugin abilitato!"
+plugin-disabled: "&cPlugin disabilitato!"
+invalid-syntax: "&cSintassi sbagliata! Sintassi corretta: \"/flags [reload|set] [category]\""
