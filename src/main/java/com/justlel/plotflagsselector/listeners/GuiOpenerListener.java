@@ -29,12 +29,7 @@ public class GuiOpenerListener implements Listener {
     public void onItemInteract(PlayerInteractEvent e) {
         if (e.getItem() == null || !e.getItem().equals(ItemOpener.getItemOpener(getMain())))
             return;
-        try {
-            SelectionGui gui = new SelectionGui(e.getPlayer(), getMain());
-            gui.openGui();
-        } catch (Exception exception) {
-            exception.printStackTrace();
-        }
+        e.getPlayer().performCommand("flags");
         e.setCancelled(true);
     }
 

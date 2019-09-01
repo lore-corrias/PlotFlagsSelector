@@ -33,9 +33,8 @@ public class GuiListener implements Listener {
         if (!e.getInventory().getTitle().equals(getMain().getLanguageConfiguration().getMessage(LanguageYaml.LANGUAGES_INDEX.SELECTION_GUI_TITLE)[0]) || e.getRawSlot() == -999 || e.getCurrentItem() == null)
             return;
         try {
-            SelectionGuiYaml currentInventory = new SelectionGuiYaml(main);
             for (SelectionGui.CATEGORY selection : SelectionGui.CATEGORY.values()) {
-                Integer itemSelected = currentInventory.getCategoryItemSlot(selection);
+                Integer itemSelected = getMain().getSelectionGuiConfiguration().getCategoryItemSlot(selection);
                 if (itemSelected == null || !itemSelected.equals(e.getRawSlot()))
                     continue;
                 ((Player) e.getWhoClicked()).performCommand("flags " + selection.toString().toUpperCase());
