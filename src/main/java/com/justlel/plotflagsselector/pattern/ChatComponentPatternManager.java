@@ -22,7 +22,6 @@ public class ChatComponentPatternManager {
      */
     public TextComponent parseString(String string) {
         if(string == null || string.isEmpty()) {
-            System.out.println(string);
             return new TextComponent();
         }
         string = ChatColor.translateAlternateColorCodes('&', string);
